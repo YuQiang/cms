@@ -1,0 +1,51 @@
+2012/03/23 15:53:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('gii')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/?r=gii
+2012/03/23 15:59:58 [error] [exception.CException] exception 'CException' with message 'IndexController does not have a method named "renderPartail".' in E:\pro\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\pro\xampp\htdocs\cms\admin\protected\controllers\IndexController.php(7): CComponent->__call('renderPartail', Array)
+#1 E:\pro\xampp\htdocs\cms\admin\protected\controllers\IndexController.php(7): IndexController->renderPartail('index')
+#2 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('')
+#7 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#8 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/cms/admin/index.php
+2012/03/23 16:06:31 [error] [exception.CException] exception 'CException' with message 'Property "IndexController.baseUrl" is not defined.' in E:\pro\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\pro\xampp\htdocs\cms\admin\protected\views\index\index.php(2): CComponent->__get('baseUrl')
+#1 E:\pro\xampp\htdocs\yii\framework\web\CBaseController.php(119): require('E:\pro\xampp\ht...')
+#2 E:\pro\xampp\htdocs\yii\framework\web\CBaseController.php(88): CBaseController->renderInternal('E:\pro\xampp\ht...', NULL, true)
+#3 E:\pro\xampp\htdocs\yii\framework\web\CController.php(866): CBaseController->renderFile('E:\pro\xampp\ht...', NULL, true)
+#4 E:\pro\xampp\htdocs\cms\admin\protected\controllers\IndexController.php(7): CController->renderPartial('index')
+#5 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): IndexController->actionIndex()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('')
+#10 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#11 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/cms/admin/index.php
+2012/03/25 17:17:24 [error] [php] Undefined variable: _SESSION (E:\pro\xampp\htdocs\cms\admin\protected\controllers\SiteController.php:2)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/?r=site
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\SiteController.php (2)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/03/25 17:18:06 [error] [php] Undefined variable: _SESSION (E:\pro\xampp\htdocs\cms\admin\protected\controllers\SiteController.php:2)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/?r=site
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\SiteController.php (2)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
