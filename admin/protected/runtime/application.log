@@ -49,3 +49,5 @@ Stack trace:
 REQUEST_URI=/cms/admin/?r=site
 in E:\pro\xampp\htdocs\cms\admin\protected\controllers\SiteController.php (2)
 in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/03/28 15:33:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cms.wf_category' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `wf_category`.
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
