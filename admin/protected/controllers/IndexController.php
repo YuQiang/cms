@@ -4,11 +4,11 @@ class IndexController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->renderPartial('index');
+		$this->render('index');
 	}
 	public function actionWelcome()
 	{
-		$this->renderPartial('welcome');
+		$this->render('welcome');
 	}
 
 	// Uncomment the following methods and override them if needed

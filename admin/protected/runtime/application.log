@@ -482,3 +482,525 @@ Stack trace:
 #1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
 #2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/cms/admin/index.php?r=category/list
+2012/03/30 15:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:21:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:29:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:44:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:44:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:58:18 [error] [exception.CException] exception 'CException' with message 'CategorysController cannot find the requested view "post".' in E:\pro\xampp\htdocs\yii\framework\web\CController.php:875
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(779): CController->renderPartial('post', NULL, true)
+#1 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(20): CController->render('post')
+#2 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('post')
+#7 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/post')
+#8 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/post
+2012/03/30 15:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 15:59:41 [error] [php] Undefined variable: model (E:\pro\xampp\htdocs\cms\admin\protected\views\categorys\post.php:10)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(866): CategorysController->renderFile()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(779): CategorysController->renderPartial()
+#2 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(40): CategorysController->render()
+#3 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#5 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#7 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#8 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\views\categorys\post.php (10)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (40)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/03/30 15:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:01:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:02:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:13:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:30:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:54:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:55:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 16:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:04:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:11:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:14:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:14:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:15:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:15:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/30 17:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list

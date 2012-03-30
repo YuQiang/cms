@@ -1,27 +1,11 @@
 <?php
-	$riaPath = Yii::app()->baseUrl.'/ria';
 	$tree1 = array(
-		array('text'=>'栏目管理','isexpand'=>false,'children'=>array(
-			array('text'=>'节点1','url'=>'/welcome')
+		array('text'=>'栏目管理','isexpand'=>true,'children'=>array(
+			array('text'=>'节点1','url'=>Yii::app()->createUrl('categorys/index'))
 		)),
 	);
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<link href="<?php echo $riaPath ?>/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" type="text/css" /> 
-<script src="<?php echo $riaPath ?>/jquery/jquery-1.3.2.min.js" type="text/javascript"></script>    
-<script src="<?php echo $riaPath ?>/ligerUI/js/ligerui.min.js" type="text/javascript"></script> 
-<style type="text/css"> 
-body{ padding:0px; margin:0;   overflow:hidden;}  
-	#pageloading{position:absolute; left:0px; top:0px; background:white url('loading.gif') no-repeat center; width:100%; height:100%;z-index:99999;}
-	#header{ margin:0; padding:0; height:31px; line-height:31px; background:url('<?php echo $riaPath ?>/images/top.jpg') repeat-x bottom;  position:relative; border-top:1px solid #1D438B;  }
-	#footer{height:32px; line-height:32px; text-align:center;}
-	.l-link{ display:block; line-height:22px; height:22px; padding-left:16px;border:1px solid white; margin:4px;}
-</style>
-</head>
+
 <script type="text/javascript">
 var tab = null;
 var accordion = null;
@@ -64,7 +48,6 @@ function f_heightChanged(options)
 		accordion.setHeight(options.middleHeight - 24);
 }
 </script>
-<body style="padding:0px;background:#EAEEF5;">
 <div id="pageloading"></div>  
 <div id="header"></div>
 <div id="layout">
@@ -86,5 +69,3 @@ function f_heightChanged(options)
 <div id="footer">
         Copyright © 2011-2012 www.ligerui.com
 </div>
-</body>
-</html>

@@ -4,7 +4,7 @@ class CategorysController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->renderPartial('index');
+		$this->render('index');
 	}
 	
 	public function actionList()
@@ -14,10 +14,29 @@ class CategorysController extends Controller
 		echo json_encode($models);
 	}
 	
-	public function actionAdd()
+	public function actionPost()
 	{
-		$models = new Categorys();
-		$models->save();
+	    $model=new Categorys;
+	
+	    // uncomment the following code to enable ajax-based validation
+	    /*
+	    if(isset($_POST['ajax']) && $_POST['ajax']==='categorys-post-form')
+	    {
+	        echo CActiveForm::validate($model);
+	        Yii::app()->end();
+	    }
+	    */
+	
+	    if(isset($_POST['Categorys']))
+	    {
+	        $model->attributes=$_POST['Categorys'];
+	        if($model->validate())
+	        {
+	            // form inputs are valid, do something here
+	            return;
+	        }
+	    }
+	    $this->render('post',array('model'=>$model));
 	}
 	// Uncomment the following methods and override them if needed
 	/*
