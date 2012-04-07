@@ -1004,3 +1004,414 @@ Stack trace:
 #1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
 #2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/03/31 17:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:08:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:25:57 [error] [exception.CException] exception 'CException' with message 'Property "Categorys.id" is not defined.' in E:\pro\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(128): CComponent->__get('id')
+#1 E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php(81): CActiveRecord->__get('id')
+#2 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1009): Categorys->beforeSave()
+#3 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(779): CActiveRecord->insert(NULL)
+#4 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(36): CActiveRecord->save()
+#5 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('post')
+#10 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/post')
+#11 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/post
+2012/04/05 16:26:20 [error] [exception.CException] exception 'CException' with message 'Property "Categorys.id" is not defined.' in E:\pro\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(128): CComponent->__get('id')
+#1 E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php(81): CActiveRecord->__get('id')
+#2 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1035): Categorys->afterSave()
+#3 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(779): CActiveRecord->insert(NULL)
+#4 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(36): CActiveRecord->save()
+#5 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('post')
+#10 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/post')
+#11 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/post
+2012/04/05 16:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:27:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:28:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `wf_categorys` (`parent`, `title`, `notes`, `url`, `cid`, `tree`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (83)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (36)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/05 16:28:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `wf_categorys` (`parent`, `title`, `notes`, `url`, `cid`, `tree`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\pro\xampp\htdocs\yii\framework\db\CDbCommand.php:338
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1015): CDbCommand->execute()
+#1 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(779): CActiveRecord->insert(NULL)
+#2 E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php(83): CActiveRecord->save()
+#3 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1035): Categorys->afterSave()
+#4 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(779): CActiveRecord->insert(NULL)
+#5 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(36): CActiveRecord->save()
+#6 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#7 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#8 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('post')
+#11 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/post')
+#12 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#13 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/post
+2012/04/05 16:30:56 [error] [php] Object of class Categorys could not be converted to string (E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php:82)
+Stack trace:
+#0 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(36): Categorys->save()
+#1 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#5 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#7 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#8 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (82)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (36)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/05 16:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:47:00 [error] [php] Object of class Categorys could not be converted to string (E:\pro\xampp\htdocs\yii\framework\web\helpers\CHtml.php:1869)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(689): activeListBox()
+#1 E:\pro\xampp\htdocs\cms\admin\protected\views\categorys\post.php(22): CActiveForm->listBox()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CBaseController.php(119): require()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CBaseController.php(88): CategorysController->renderInternal()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(866): CategorysController->renderFile()
+#5 E:\pro\xampp\htdocs\yii\framework\web\CController.php(779): CategorysController->renderPartial()
+#6 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(43): CategorysController->render()
+#7 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#8 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#9 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#10 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#11 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#12 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#14 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\views\categorys\post.php (22)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (43)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/05 16:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 16:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 17:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 17:23:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/05 17:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php:332
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('list')
+#1 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/cms/admin/index.php?r=list
+2012/04/06 16:47:33 [error] [php] Undefined variable: currentPage (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:15)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/list
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (15)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 16:56:43 [error] [php] Undefined index: sortname (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:19)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/list
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (19)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 16:56:45 [error] [php] Undefined index: sortname (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:19)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/list
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (19)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 16:57:01 [error] [php] Undefined index: sortname (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:19)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/list
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (19)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 16:57:18 [error] [php] Undefined index: sortname (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:19)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/list
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (19)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 16:57:24 [error] [php] Undefined index: sortname (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:19)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/list
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (19)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 17:21:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "remove".' in E:\pro\xampp\htdocs\yii\framework\web\CController.php:477
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(262): CController->missingAction('remove')
+#1 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('remove')
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/remov...')
+#3 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/remove
+2012/04/06 17:22:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "remove".' in E:\pro\xampp\htdocs\yii\framework\web\CController.php:477
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(262): CController->missingAction('remove')
+#1 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('remove')
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/remov...')
+#3 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/remove
+2012/04/06 17:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "remove".' in E:\pro\xampp\htdocs\yii\framework\web\CController.php:477
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(262): CController->missingAction('remove')
+#1 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('remove')
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/remov...')
+#3 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/remove
+2012/04/06 17:23:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "remove".' in E:\pro\xampp\htdocs\yii\framework\web\CController.php:477
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(262): CController->missingAction('remove')
+#1 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('remove')
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/remov...')
+#3 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/remove
+2012/04/06 17:32:58 [error] [php] Undefined index: cid (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:69)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/remove
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (69)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 17:44:21 [error] [php] Undefined variable: model (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:35)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (35)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 17:45:38 [error] [php] Undefined variable: model (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:35)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (35)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 17:47:11 [error] [php] Undefined variable: model (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:35)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (35)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 18:14:20 [error] [php] Undefined variable: model (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:35)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (35)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 18:15:24 [error] [php] Undefined variable: model (E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php:36)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#5 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (36)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 18:18:59 [error] [php] Undefined variable: parent (E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php:80)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\base\CModel.php(152): CInlineValidator->validate()
+#1 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(50): Categorys->validate()
+#2 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#5 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#7 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#8 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#9 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (80)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (50)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 18:38:12 [error] [php] Non-static method CActiveRecord::findByPk() should not be called statically (E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php:100)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#5 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#6 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#7 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (100)
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (100)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (54)
+2012/04/06 18:38:51 [error] [php] Trying to get property of non-object (E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php:101)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (101)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (54)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/06 18:41:18 [error] [php] Trying to get property of non-object (E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php:109)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (109)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (54)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)

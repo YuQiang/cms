@@ -10,6 +10,7 @@
  * @property string $title
  * @property string $notes
  * @property string $url
+ * @property string $update
  */
 class Categorys extends CActiveRecord
 {
@@ -38,12 +39,13 @@ class Categorys extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('parent', 'numerical', 'integerOnly'=>true),
+			array('parent,update', 'numerical', 'integerOnly'=>true),
 			array('tree, title, notes', 'length', 'max'=>64),
 			array('url', 'length', 'max'=>255),
+			array('parent', 'validateParent'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('cid, parent, tree, title, notes, url', 'safe', 'on'=>'search'),
+			array('cid, parent, tree, title, notes, url ,update', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,15 +66,49 @@ class Categorys extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'cid' => 'Cid',
-			'parent' => 'Parent',
-			'tree' => 'Tree',
-			'title' => 'Title',
-			'notes' => 'Notes',
-			'url' => 'Url',
+			'cid' => '类目ID',
+			'parent' => '父类目ID',
+			'tree' => '路径',
+			'title' => '标题	',
+			'notes' => '备注',
+			'url' => '链接',
+			'update' => '更新时间',
 		);
 	}
-
+	public function validateParent($attribute,$params)
+	{
+		if ($this->parent == 0) return true;
+		$parent = Categorys::model()->findByPk($this->parent);
+		if ($parent){
+			$items = explode('|',$parent->tree);
+			if($this->cid && in_array($this->cid, $items)){
+				$this->addError('parent','非法父类目');
+			}
+		}else{
+			$this->addError('parent','指定父类目不存在');
+		}
+	}
+	public function beforeSave()
+	{
+		$this->update = time();
+		return true;
+	}
+	public static  function updateTree($cid)
+	{
+		$model = Categorys::model()->findByPk($cid);
+		if($model->parent !== 0 && $parent = Categorys::model()->findByPk($model->parent)){
+			$tree = $parent->tree.$model->cid.'|';
+		}else{
+			$tree = $model->cid.'|';
+		}
+		$model->tree = $tree;
+		$model->save();
+		$children = Categorys::model()->findAllByAttributes(array('parent'=>$model->cid));
+		foreach ($children as $child){
+			Categorys::updateTree($child->cid);
+		}
+		
+	}
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.

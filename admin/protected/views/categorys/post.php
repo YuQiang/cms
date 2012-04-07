@@ -9,11 +9,9 @@ $(function ()
 	});
 });
 </script>
-<div id="toptoolbar"></div>
+<div id="toptoolbar" ></div>
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'categorys-post-form',
-	'htmlOptions'=>array('class'=>"pageForm required-validate",
-	'onsubmit'=>"return validateCallback(this, navTabAjaxDone)"),
 	'enableAjaxValidation'=>false,
 )); ?>
 <table cellpadding="0" cellspacing="0" class="l-table-edit" >
@@ -21,11 +19,6 @@ $(function ()
     <td align="right" class="l-table-edit-td"><?php echo $form->labelEx($model,'parent'); ?></td>
     <td align="left" class="l-table-edit-td"><?php echo $form->textField($model,'parent'); ?></td>
     <td align="left"><?php echo $form->error($model,'parent'); ?></td>
-</tr>
-<tr>
-    <td align="right" class="l-table-edit-td"><?php echo $form->labelEx($model,'tree'); ?></td>
-    <td align="left" class="l-table-edit-td"><?php echo $form->textField($model,'tree'); ?></td>
-    <td align="left"><?php echo $form->error($model,'tree'); ?></td>
 </tr>
 <tr>
     <td align="right" class="l-table-edit-td"><?php echo $form->labelEx($model,'title'); ?></td>
@@ -52,12 +45,13 @@ $(function ()
 $(function ()
 {
     $("form").ligerForm();
-	$("tr").each(function(){
-		error = $('.errorMessage',this).html();
-		width = $('.errorMessage',this).width();
+	$(".errorMessage").each(function(){
+		error = $(this).html();
+		width = $(this).width();
 		if(error){
-			$('td',this).eq(1).ligerTip({ content: error ,width:width+16});
-			$('.errorMessage',this).hide();
+			$(this).html('.');
+			$(this).ligerTip({ content: error ,width:width+16});
+			$(this).hide();
 		}
 	});
 }); 
