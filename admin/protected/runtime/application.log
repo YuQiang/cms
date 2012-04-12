@@ -1415,3 +1415,50 @@ REQUEST_URI=/cms/admin/index.php?r=categorys/post
 in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (109)
 in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (54)
 in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/12 15:52:27 [error] [exception.CException] exception 'CException' with message 'CDbCriteria does not have a method named "campare".' in E:\pro\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php(108): CComponent->__call('campare', Array)
+#1 E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php(108): CDbCriteria->campare('tree', '2|%')
+#2 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(54): Categorys::updateTree('2')
+#3 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#6 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('post')
+#8 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/post')
+#9 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/post&cid=2
+2012/04/12 15:56:59 [error] [php] Use of undefined constant ture - assumed 'ture' (E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php:108)
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#1 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CategorysController->runAction()
+#2 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CategorysController->runActionWithFilters()
+#3 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CategorysController->run()
+#4 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#5 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#6 E:\pro\xampp\htdocs\cms\admin\index.php(13): CWebApplication->run()
+REQUEST_URI=/cms/admin/index.php?r=categorys/post&cid=12
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (108)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (54)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/12 16:14:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1. The SQL statement executed was: SELECT * FROM `wf_categorys` `t` WHERE tree like :tree%.
+in E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php (111)
+in E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php (54)
+in E:\pro\xampp\htdocs\cms\admin\index.php (13)
+2012/04/12 16:14:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' at line 1. The SQL statement executed was: SELECT * FROM `wf_categorys` `t` WHERE tree like :tree%' in E:\pro\xampp\htdocs\yii\framework\db\CDbCommand.php:518
+Stack trace:
+#0 E:\pro\xampp\htdocs\yii\framework\db\CDbCommand.php(376): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1256): CDbCommand->queryAll()
+#2 E:\pro\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1380): CActiveRecord->query(Object(CDbCriteria), true)
+#3 E:\pro\xampp\htdocs\cms\admin\protected\models\Categorys.php(111): CActiveRecord->findAll(Object(CDbCriteria))
+#4 E:\pro\xampp\htdocs\cms\admin\protected\controllers\CategorysController.php(54): Categorys::updateTree('13')
+#5 E:\pro\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): CategorysController->actionPost()
+#6 E:\pro\xampp\htdocs\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\pro\xampp\htdocs\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\pro\xampp\htdocs\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(328): CController->run('post')
+#10 E:\pro\xampp\htdocs\yii\framework\web\CWebApplication.php(121): CWebApplication->runController('categorys/post')
+#11 E:\pro\xampp\htdocs\yii\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#12 E:\pro\xampp\htdocs\cms\admin\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/cms/admin/index.php?r=categorys/post&cid=13

@@ -97,17 +97,22 @@ class Categorys extends CActiveRecord
 	{
 		$model = Categorys::model()->findByPk($cid);
 		if($model->parent !== 0 && $parent = Categorys::model()->findByPk($model->parent)){
-			$tree = $parent->tree.$model->cid.'|';
+			$newTree = $parent->tree.$model->cid.'|';
 		}else{
-			$tree = $model->cid.'|';
+			$newTree = $model->cid.'|';
 		}
-		$model->tree = $tree;
+		$originalTree = $model->tree;
+		$model->tree = $newTree;
 		$model->save();
-		$children = Categorys::model()->findAllByAttributes(array('parent'=>$model->cid));
+		$criteria=new CDbCriteria;
+		$criteria->select = 'cid,tree';
+		$criteria->addCondition("tree like :tree");
+		$criteria->params[':tree']=$originalTree.'%';
+		$children = Categorys::model()->findAll($criteria);
 		foreach ($children as $child){
-			Categorys::updateTree($child->cid);
+			$child->tree = str_replace($originalTree, $newTree,$child->tree);
+			$child->save();
 		}
-		
 	}
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
